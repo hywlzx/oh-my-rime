@@ -1,3 +1,9 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sun Mar 17 11:56:10 2024"
+  rime_version: 1.8.5
 patch:
   "ascii_composer/good_old_caps_lock": true
   "ascii_composer/switch_key":
@@ -11,8 +17,8 @@ patch:
     - {schema: rime_mint}           # 薄荷拼音
     - {schema: double_pinyin_flypy} # 小鹤双拼
     - {schema: rime_mint_flypy}     # 薄荷拼音-小鹤混输方案
-    - {schema: terra_pinyin}        # 地球拼音-薄荷定制
-    - {schema: wubi98_mint}         # 五笔98-薄荷简版
+    # - {schema: terra_pinyin}        # 地球拼音-薄荷定制
+    # - {schema: wubi98_mint}         # 五笔98-薄荷简版
   "switcher/hotkeys":
     - "Control+grave"
   "translator/enable_encoder": true
